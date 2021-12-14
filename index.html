@@ -9,6 +9,9 @@ h1 {
   color: white;
   text-align: center;
 }
+.center {
+    text-align: center;
+}
 
 p {
   font-family: "Courier New";
@@ -16,12 +19,75 @@ p {
   color: white;
   text-align: center;
 }
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
 </style>
 <html>
 <head>
   </head>
 <body>
-  <p> test </p>
+  <br>
+  <br>
+  <br>
+  <div class="fade-in">
+  <div class="center">
 
+  <h1> ParaDrive </h1>
+  <p> Welcome to my website. </p>
+  <a href="default.asp">
+  <img src="src/github.png" alt="GitHub" class="center" style="width:25px;height:25px;">
+    <img src="src/steam.png" alt="Steam" class="center" style="width:25px;height:25px;">
+
+</a>
+  </div>
+  </div>
 </body>
 </html>
